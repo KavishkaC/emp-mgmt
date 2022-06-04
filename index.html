@@ -1,3 +1,4 @@
+<script>
 function WriteToFile(passForm) {
  
     set fso = CreateObject("Scripting.FileSystemObject"); 
@@ -12,7 +13,7 @@ function WriteToFile(passForm) {
     s.writeline("-----------------------------");
     s.Close();
  }
-
+</script>
 // HTML
 <form onSubmit="WriteToFile(this)">
 <label>Type your first name:</label>
